@@ -1,0 +1,79 @@
+.heading {
+    color: white;
+    background-color: #f5ba13;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.note {
+    
+        background: #fff;
+        border-radius: 7px;
+        box-shadow: 0 2px 5px #ccc;
+        padding: 20px;
+        width: 240px;
+        margin: 16px;
+        text-align: center;        
+          
+}        
+
+.box {
+    position: relative;
+    left: 470px;
+          
+}
+/*.note:focus {
+    height:150px;
+    transition: 0.5s;
+}*/
+
+.add-note {
+    position: relative;
+    left: -50px;
+    top: -25px;
+    border-radius: 50%;
+    font-size: 1em;
+    color: red;
+    background-color: yellow;
+    border-color: black;
+    cursor: pointer;
+}
+
+.add-note:hover {
+    background-color: rgb(228, 198, 31);
+}
+
+.savednotes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 30px;
+    align-items: center;
+  }
+
+.snote {
+    background: #fff;
+        border-radius: 7px;
+        box-shadow: 0 2px 5px #ccc;
+        padding: 20px;
+        width: 240px;
+        margin: 16px;
+        text-align: center;
+}
+
+.removebutton {
+    position: relative;
+    left:120px;
+    top:15px;
+    border-radius: 50%;
+    font-size: 1em;
+    color: red;
+    background-color: yellow;
+    border-color: black;
+    cursor: pointer;
+}
+
+.removebutton:hover {
+    background-color: rgb(228, 198, 31);
+}
